@@ -1,4 +1,4 @@
-const first_friend = {
+const jack = {
    name: 'Jack',
    lastname: 'White',
    weight: 79,
@@ -8,7 +8,7 @@ const first_friend = {
       return Math.round(this.weight/Math.pow(this.height, 2) * 10000)   
 }
 }
-const second_friend = {
+const mike = {
    name: 'Mike',
    lastname: 'Black',
    weight: 91,
@@ -19,6 +19,6 @@ const second_friend = {
 }
 }
 
-let whoHasMoreMBI = first_friend.calBMI() > second_friend.calBMI() ? `ИМТ ${first_friend.name} ${first_friend.lastname} (${first_friend.calBMI()}) выше, чем у ${second_friend.name} ${second_friend.lastname} (${second_friend.calBMI()})` : `ИМТ ${first_friend.name} ${first_friend.lastname} (${first_friend.calBMI()}) ниже, чем у ${second_friend.name} ${second_friend.lastname} (${second_friend.calBMI()})`
+let whoHasMoreMBI = jack.calBMI() > mike.calBMI() ? `BMI ${jack.name} ${jack.lastname} (${jack.calBMI()}) is higher than ${mike.name} ${mike.lastname} (${mike.calBMI()}).` : `BMI ${mike.name} ${mike.lastname} (${mike.calBMI()}) is higher than ${jack.name} ${jack.lastname} (${jack.calBMI()}).`
 
 console.log(whoHasMoreMBI)
