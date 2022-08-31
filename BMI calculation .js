@@ -19,6 +19,6 @@ const mike = {
 }
 }
 
-let whoHasAHigherMBI = jack.calBMI() > mike.calBMI() ? `BMI ${jack.name} ${jack.lastname} (${jack.calBMI()}) is higher than ${mike.name} ${mike.lastname} (${mike.calBMI()}).` : `BMI ${mike.name} ${mike.lastname} (${mike.calBMI()}) is higher than ${jack.name} ${jack.lastname} (${jack.calBMI()}).`
+let whoHasAHigherBMI = jack.calBMI() > mike.calBMI() ? `BMI ${jack.name} ${jack.lastname} (${jack.calBMI()}) is higher than ${mike.name} ${mike.lastname} (${mike.calBMI()}).` : `BMI ${mike.name} ${mike.lastname} (${mike.calBMI()}) is higher than ${jack.name} ${jack.lastname} (${jack.calBMI()}).`
 
-console.log(whoHasAHigherMBI)
+console.log(whoHasAHigherBMI)
